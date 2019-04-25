@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author zhouli
+ * @author mazb
  */
 @SpringBootApplication
 @EnableCircuitBreaker

@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import java.math.BigDecimal;
 
 /**
- * @author zhouli
+ * @author mazb
  */
 @RequestMapping("/movies")
 @RestController

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.math.BigDecimal;
 
 /**
- * @author zhouli
+ * @author mazb
  */
 @FeignClient(name = "microservice-provider-user", fallbackFactory = UserFeignClientFallbackFactory.class)
 public interface UserFeignClient {

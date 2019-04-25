@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.cillin.cloud.study.entity.User;
 
 /**
- * @author zhouli
+ * @author mazb
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 /**
- * @author zhouli
+ * @author mazb
  */
 @FeignClient(name = "microservice-provider-user", configuration = UserFeignConfig.class)
 public interface UserFeignClient {
@@ -25,7 +25,7 @@ public interface UserFeignClient {
  * 否则，该配置将会被所有Feign Client共享，无法实现细粒度配置！
  * 个人建议：像我一样，不加@Configuration注解
  *
- * @author zhouli
+ * @author mazb
  */
 class UserFeignConfig {
   @Bean
